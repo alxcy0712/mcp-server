@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mcp-server
+
+stock:
+  commission:
+    # 佣金费率 默认万分之一
+    rate: 0.0001
+    # 最低佣金 5元
+    min: 5
+    # 印花税（国税局收取） 卖出时收取
+    stamp: 0.0005
+    # 其他费用 包括过户费（中登结算收取）
+    other: 0.00001
