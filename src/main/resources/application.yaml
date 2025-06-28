@@ -12,3 +12,8 @@ stock:
     stamp: 0.0005
     # 其他费用 包括过户费（中登结算收取）
     other: 0.00001
+
+sina:
+  url: "http://hq.sinajs.cn/"
+  referer: "https://finance.sina.com.cn"
+  getList: "list"
